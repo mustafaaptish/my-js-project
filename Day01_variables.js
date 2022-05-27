@@ -1,5 +1,10 @@
 // var is a keyword to declare a variable-its like String, int, boolean
 
+const age =10; // does not change
+
+let name='John';// has some restrictions
+
+var lastName='Smith'
 var myName // by default this is undefined
 console.log(myName)
 

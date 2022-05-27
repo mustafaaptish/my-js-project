@@ -1,8 +1,4 @@
-const age =10; // does not change
 
-let name='John';// has some restrictions
-
-var lastName='Smith'
 
 
 /*
