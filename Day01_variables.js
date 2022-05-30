@@ -35,3 +35,7 @@ console.log(lName)
 var firstName='Sam'
 var lastName='Walton'
 console.log(firstName +' '+lastName )
+
+// let is block scoped - you cannot use let twice for the same variable
+// var is function scoped - it has larger scope
+// const is most restricted - it does not change. You cannot assign a new value
