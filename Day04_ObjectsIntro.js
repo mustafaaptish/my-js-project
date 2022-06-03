@@ -59,5 +59,3 @@ console.log(typeof(person.isEmployed));// "boolean"
 //pass the value as a string when using [] notation
 console.log(person['fName']);//"John"
 console.log(typeof(person['fName'])); //"string"
-
-

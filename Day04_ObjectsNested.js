@@ -44,12 +44,13 @@ const personInfo={
 // ARRAY WITHIN AN OBJECT
 // hobbies: ['soccer','fishing','hunting'],
 
-console.log(personInfo);
+console.log('whole info: '+personInfo);
 console.log(personInfo.hobbies);// ["soccer", "fishing", "hunting"]
 console.log(personInfo.fName);// "Jim"
 
 // we ccan use multiple . to get the data from nested objects
 console.log(personInfo.address.street);// "6th Ave"
+
 
 // we can do this:
 const myState=personInfo.address.state;

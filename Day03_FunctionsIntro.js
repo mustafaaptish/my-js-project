@@ -126,6 +126,16 @@ sum();// NaN
 sum(3,8);//11
 sum(3,8,5)// undefined
 
+// NOTE: be careful when calling anonymus function-idf we do console.log(sum())-be careful with (). This is a function.
+// var sum=function(x,y){
+//   console.log(x+y);
+// }
+
+// // calling the function
+// sum();// NaN
+// sum(7,9);//11
+// NOTE ↑
+
 
 // Create anonymus function with 3 parameters
 
