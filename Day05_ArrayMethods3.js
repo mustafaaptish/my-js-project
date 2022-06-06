@@ -59,3 +59,5 @@ console.log(myCombo);
 
 const slicedCars=cars.slice(-1); // start from the end index and return the last index of that array
 console.log(slicedCars); //'land rover'
+
+//NEXT PART

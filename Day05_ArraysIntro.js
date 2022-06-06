@@ -45,3 +45,5 @@ console.log(friendList);// ["sam", "tom", "tim", "Mary", "bob", "alex", undefine
 // 1. if there is already data in that index, then previous data will be overriden-we are changing data in that index.
 // 2. if there is no data in that index, thenthe new data will be inserted in that index-we are adding data in that index.
 // NOTE if there is a GAP between the last index and inserted index then the gap indexes will be undefined-see friendList[]
+
+// END
