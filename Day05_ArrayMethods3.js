@@ -61,3 +61,13 @@ const slicedCars=cars.slice(-1); // start from the end index and return the last
 console.log(slicedCars); //'land rover'
 
 //NEXT PART
+
+
+// Array Destructuring - we do not have to use indexes to get the data
+
+const x = [1, 2, 3, 4, 5];
+const [y,z,k] = x;
+console.log(y); // 1
+console.log(z); // 2
+console.log(k); // 3
+
