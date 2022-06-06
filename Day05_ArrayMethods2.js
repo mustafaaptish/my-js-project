@@ -35,33 +35,3 @@ var fruits=['apple','orange','banana',false,10];
 console.log(fruits);
 
 
-// 7. splice
-// splice(start)
-// splice(start, deleteCount)
-// splice(start, deleteCount, item1)
-// splice(start, deleteCount, item1, item2, itemN)
-
-// splice(start)
- const months = ['Jan', 'March', 'April', 'June'];
-//months.splice(1);// [ 'Jan']
-console.log(months);// [ 'Jan' ] -> deletes everything after first index
-
-
-// splice(start, deleteCount)
-//months.splice(1,2); // deletes ONLY 2 after the first index INCLUDING the first index
-console.log(months);// [ 'Jan', 'June' ]
-//months.splice(1,1); // means: START from index 1 and DELETE ONLY 1 item
-console.log(months);// [ 'Jan', 'April', 'June' ]
-//months.splice(2,1);// deletes April
-console.log(months);// [ 'Jan', 'March', 'June' ]
-//months.splice(2,2);
-console.log(months);// deletes last two
-
-// splice(start, deleteCount, item1) - this will insert an item
-//months.splice(2,1,'September');// it will delete ONLY 1 item AFTER second INDEX + it WILL INSERT 'September' in SECOND index
-console.log(months);
-
-// splice(start, deleteCount, item1, item2, itemN)
-months.splice(2,1,'May','June','July','August'); // it will INSERT all of these elements in the place of index 2
-console.log(months); // [ 'Jan', 'March', 'May', 'June', 'July', 'June' ]
-
