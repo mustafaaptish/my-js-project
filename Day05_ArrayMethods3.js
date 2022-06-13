@@ -73,8 +73,10 @@ console.log(k); // 3
 
 // 10. join - When we have an array we can use join to change the view.
 // it returns a string. We can combine the items of the array
+// it is aslo a good way to convert an array to string
 
 const joinedItems=drinks.join(' - ');// we use quotes and put anything inside
+console.log(typeof(joinedItems));//string
 console.log(joinedItems)// water - coke - whiskey - beer - tea - coffee
 
 const joinedItems1=drinks.join('');
