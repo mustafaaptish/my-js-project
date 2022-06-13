@@ -71,3 +71,14 @@ console.log(y); // 1
 console.log(z); // 2
 console.log(k); // 3
 
+// 10. join - When we have an array we can use join to change the view.
+// it returns a string. We can combine the items of the array
+
+const joinedItems=drinks.join(' - ');// we use quotes and put anything inside
+console.log(joinedItems)// water - coke - whiskey - beer - tea - coffee
+
+const joinedItems1=drinks.join('');
+console.log(joinedItems1)// watercokewhiskeybeerteacoffee
+
+const joinedItems2=drinks.join(',');
+console.log(joinedItems2)// water,coke,whiskey,beer,tea,coffee
