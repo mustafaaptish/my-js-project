@@ -23,7 +23,7 @@ var age=18;
 
 console.log(`${fName} ${lName} ${age}`)
 
-//we are creating object. person object with 3 data
+//we are creating object. person object with 4 data
 // the curly braces are used to create an object-this is json format
 
 var person = {
