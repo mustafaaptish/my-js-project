@@ -20,7 +20,7 @@ We can use spread operator with:
 var minNum = Math.min(2,4,-12,89,100);
 console.log(minNum);// -12 because the numbers are already separated/spread out. There are five diffrent data/items.
 
-// for example when we create an array of the same number.  We can't use the same logic
+// for example when we create an array of the same numbers.  We CANNOT use the same logic
 const temperatures = [2,4,-12,89,100];
 minTemp = Math.min(temperatures);
 console.log(minTemp)// NaN - because the data(temperature) in this array is a whole structure data.
@@ -81,6 +81,7 @@ console.log(skills);// [ 'java', 'javascript', 'python', 'develop', 'test', 'dep
 // lets get the copy of the languages array (above)
 var copyOfLanguages = languages; // without using spread operator
 console.log(copyOfLanguages);// [ 'java', 'javascript', 'python' ]
+
 // we are not creating a new object here.
 // copyOfLanguages and languages point the same place in the memory
 // If I make an update on one array the other one will be changed as well
@@ -102,4 +103,24 @@ console.log(copyWithSpread);// [ 'java', 'javascript', 'python', 'ruby', 'Apex' 
 console.log(languages);// [ 'java', 'javascript', 'python', 'ruby' ]
 // When I make a change in the copy then the original is not affected
 
-// 3. Objects
+// 3. Objects: spread operator can be used with objects
+const fullName={
+    fName:'James',
+    lName:'Bond'
+}
+
+// now we want to add some additional info to our user
+var userInfo={
+fullName, // fullName is inserted as an object
+id:1,
+username:'007'
+}
+console.log(userInfo);// { fullName: { fName: 'James', lName: 'Bond' }, id: 1, username: '007' }
+
+// using spread operator
+var userInfo={
+    ...fullName,
+    id:1,
+    username:'007'
+    }
+    console.log(userInfo);// { fName: 'James', lName: 'Bond', id: 1, username: '007' }
