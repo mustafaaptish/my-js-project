@@ -124,3 +124,5 @@ var userInfo={
     username:'007'
     }
     console.log(userInfo);// { fName: 'James', lName: 'Bond', id: 1, username: '007' }
+
+    
